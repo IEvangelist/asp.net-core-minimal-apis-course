@@ -1,0 +1,16 @@
+title: ASP.NET Core Minimal APIs
+description: Learn how to create ASP.NET Core Minimal APIs.
+template:
+  repo: asp.net-core-minimal-apis-template
+  name: asp.net-core-minimal-apis
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
